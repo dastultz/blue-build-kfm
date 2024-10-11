@@ -17,9 +17,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://repo.1password.com/fedora/1password.repo
     install:
-      - 1password
       - adwaita-qt6
       - rsnapshot
       # fonts
