@@ -34,8 +34,6 @@ modules:
       - jetbrains-mono-fonts-all
       - mozilla-fira-mono-fonts
       - powerline-fonts
-      - ubuntu-nerd-fonts
-      - ubuntumono-nerd-fonts
       - rsms-inter-fonts
     remove:
       - firefox # default firefox removed in favor of flatpak
