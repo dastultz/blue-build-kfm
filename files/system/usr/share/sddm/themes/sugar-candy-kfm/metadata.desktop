@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
-Name=sddm-astronaut-theme
-Description=sddm-astronaut-theme
+Name=sddm-kfm-theme
+Description=sddm-kfm-theme
 Author=keyitdev
-Website=https://github.com/Keyitdev/sddm-astronaut-theme
+Website=https://github.com/dastultz/blue-build-kfm
 License=GPL-3.0-or-later
 Type=sddm-theme
 Version=1.1
@@ -10,6 +10,6 @@ ConfigFile=Themes/theme1.conf
 Screenshot=Previews/preview1.png
 MainScript=Main.qml
 TranslationsDirectory=translations
-Theme-Id=sddm-astronaut-theme
+Theme-Id=sddm-kfm-theme
 Theme-API=2.0
 QtVersion=6
