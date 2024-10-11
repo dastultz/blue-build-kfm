@@ -20,6 +20,7 @@ modules:
     install:
       - adwaita-qt6
       - rsnapshot
+      - yakuake
       # fonts
       - adobe-source-code-pro-fonts
       - cascadia-code-nf-fonts
