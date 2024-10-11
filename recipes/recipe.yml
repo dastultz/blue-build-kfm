@@ -17,7 +17,6 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/bobslept/nerd-fonts/repo/fedora-%OS_VERSION%/bobslept-nerd-fonts-fedora-%OS_VERSION%.repo
       - https://repo.1password.com/fedora/1password.repo
     install:
       - 1password
