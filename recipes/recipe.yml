@@ -21,6 +21,7 @@ modules:
       - adwaita-qt6
       - rsnapshot
       - yakuake
+      - fish
       # fonts
       - adobe-source-code-pro-fonts
       - cascadia-code-nf-fonts
