@@ -17,11 +17,13 @@ modules:
 
   - type: rpm-ostree
     repos:
+      - https://download.opensuse.org/repositories/home:paul4us/Fedora_%OS_VERSION%/home:paul4us.repo
     install:
       - adwaita-qt6
       - rsnapshot
       - yakuake
       - fish
+      - klassy
       # fonts
       - adobe-source-code-pro-fonts
       - cascadia-code-nf-fonts
