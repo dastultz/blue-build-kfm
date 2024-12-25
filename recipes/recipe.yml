@@ -19,7 +19,6 @@ modules:
     repos:
       - https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo  # klassy
     install:
-      - adwaita-qt6
       - rsnapshot
       - yakuake
       - fish
