@@ -17,14 +17,12 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo  # klassy
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo # COSMIC
     install:
       - cosmic-desktop
       - rsnapshot
       - yakuake
       - fish
-      - klassy
       # fonts
       - adobe-source-code-pro-fonts
       - cascadia-code-nf-fonts
