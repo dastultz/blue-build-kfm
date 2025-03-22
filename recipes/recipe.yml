@@ -38,9 +38,7 @@ modules:
       - mozilla-fira-mono-fonts
       - powerline-fonts
       - rsms-inter-fonts
-    remove:
-      - firefox # default firefox removed in favor of flatpak
-      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+    #remove:
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
