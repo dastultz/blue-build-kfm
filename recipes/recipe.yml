@@ -61,5 +61,5 @@ modules:
 
   - type: script
     scripts:
-      #- 1password.sh
+      - install_huion_driver.sh
 
