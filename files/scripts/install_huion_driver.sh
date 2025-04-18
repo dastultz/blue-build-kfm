@@ -6,6 +6,7 @@
 set -oue pipefail
 
 FILE=HuionTablet_LinuxDriver_v15.0.0.162.x86_64.tar.xz
+find / -name ${FILE}
 DIR=huion_tablet_driver
 cd /tmp
 mkdir ${DIR} && tar -xf ${FILE} -C ${DIR}
