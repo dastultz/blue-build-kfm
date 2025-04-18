@@ -6,11 +6,10 @@
 set -oue pipefail
 
 FILE=HuionTablet_LinuxDriver_v15.0.0.162.x86_64.tar.xz
-find / -name ${FILE}
 DIR=huion_tablet_driver
-cd /tmp
+cd /tmp/files
 mkdir ${DIR} && tar -xf ${FILE} -C ${DIR}
 
-sudo /tmp/${DIR}/install.sh
-sudo rm -rf /tmp/${DIR}
-sudo rm /tmp/${FILE}
+sudo ./${DIR}/install.sh
+sudo rm -rf ${DIR}
+sudo rm ${FILE}
