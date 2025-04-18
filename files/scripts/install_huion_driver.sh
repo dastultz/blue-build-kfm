@@ -10,6 +10,6 @@ DIR=huion_tablet_driver
 cd /tmp/files
 mkdir ${DIR} && tar -xf ${FILE} -C ${DIR}
 
-sudo ./${DIR}/install.sh
-sudo rm -rf ${DIR}
-sudo rm ${FILE}
+./${DIR}/install.sh
+rm -rf ${DIR}
+rm ${FILE}
