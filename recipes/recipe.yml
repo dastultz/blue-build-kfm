@@ -4,7 +4,7 @@ name: kfm
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/budgie-main
 image-version: 41
 
 # module configuration, executed in order
@@ -19,7 +19,6 @@ modules:
     #repos:
     #  - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo # COSMIC
     install:
-      - budgie-desktop
       - rsnapshot
       - yakuake
       - fish
