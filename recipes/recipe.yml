@@ -34,7 +34,6 @@ modules:
       - google-roboto-slab-fonts
       - ibm-plex-mono-fonts
       - jetbrains-mono-fonts-all
-      - mozilla-fira-mono-fonts
       - powerline-fonts
       - rsms-inter-fonts
     #remove:
